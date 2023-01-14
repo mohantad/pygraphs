@@ -1,0 +1,16 @@
+{
+    "terminal.integrated.defaultProfile.windows": "Cmder",
+
+"terminal.integrated.profiles.windows": {
+ "Cmder": {
+ 	"name": "Cmder",
+ 	"path": [
+ 		"${env:windir}\\Sysnative\\cmd.exe",
+ 		"${env:windir}\\System32\\cmd.exe"
+ 	],
+ 	"args": ["/k", "C:\\tools\\Cmder\\vendor\\init.bat"],
+ 	"icon": "terminal-cmd",
+ 	"color": "terminal.ansiGreen"
+ },
+},
+}
